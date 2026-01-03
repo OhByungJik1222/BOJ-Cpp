@@ -2,6 +2,9 @@
 using namespace std;
 
 int main() {
-    cout << 1 << '\n' << 0;
+    long long n;
+    cin >> n;
+
+    cout << n * n * n << '\n' << 3;
     return 0;
 }
